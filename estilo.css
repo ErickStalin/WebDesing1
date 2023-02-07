@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.6rem;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    flex-grow: 1;
+  }
+  .box1 {
+    background-color: blue;
+    width: 1rem;
+    height: 50rem;
+  }
+  .box2 {
+    background-color: rgb(140, 119, 160);
+    width: 40rem;
+    height: 50rem;
+  }
+  .nav {
+    background-color: rgb(57, 124, 88);
+    padding: 20px;
+    list-style: none;
+    text-align: right;
+    }
+  .nav li {
+        display: inline-block;
+        font-size: 20px;
+        margin: 10px 0;
+        padding-left: 20px;
+        padding-right: 20px;
+   }
+   .container2 {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .boxx {
+    border: 0.3rem solid black;
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+  }
+  .box3 {
+    background-color: rgb(19, 41, 27);
+  }
+  .box4 {
+    background-color: rgb(160, 82, 82);
+  }
+  .box5 {
+    background-color: rgb(160, 82, 82);
+  }
+  .box6 {
+    background-color: rgb(160, 82, 82);
+  }
+  .img{
+    align-self: center;
+  }
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10rem;
+  }
+  .boxxx {
+    border: 0.1rem solid black;
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+    padding: 10rem;
+  }
+  .caja1 {
+    background-color: rgb(160, 82, 82);
+    padding: 10rem;
+  }
+  .imagen{
+    width: 90px;
+    margin: auto;
+    display: block;
+    position: relative;
+    left: -68%;
+    top: -75px;
+    border-radius: 60px;
+  }
+  .parrafo{
+    position: relative;
+    left: 70%;
+    top: -210px;
+  }
+  .logo{
+    width: 90px;
+    margin: auto;
+    display: block;
+    position: relative;
+    left: -150%;
+    top: -240px;
+    border-radius: 60px;
+  }
+  
